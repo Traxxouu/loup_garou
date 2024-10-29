@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+#player-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#player-list li {
+    margin: 5px 0;
+}
+
+/* ... styles précédents ... */
+
+#player-status ul, #game-log ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#player-status li {
+    margin: 5px 0;
+}
+
+#player-status li.eliminated {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#phase-content button {
+    padding: 10px 15px;
+    margin: 5px;
+}

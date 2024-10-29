@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Loup-Garou - Distribution des rôles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Loup-Garou</h1>
+    <div id="role-distribution">
+        <p id="instruction">Passez le téléphone au joueur suivant et appuyez sur le bouton ci-dessous pour voir votre rôle.</p>
+        <button id="show-role-button">Voir mon rôle</button>
+    </div>
+    <div id="role-display" style="display: none;">
+        <p>Bonjour <span id="player-name"></span>, votre rôle est :</p>
+        <h2 id="player-role"></h2>
+        <p id="role-description"></p>
+        <button id="next-player-button">Joueur suivant</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+

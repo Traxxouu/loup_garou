@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Loup-Garou - Configuration de la partie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Titre principal -->
+    <h1>Loup-Garou</h1>
+
+    <!-- Section d'inscription des joueurs -->
+    <h2>Inscription des joueurs</h2>
+    <form id="player-form">
+        <label for="player-name">Entrez votre prénom :</label>
+        <input type="text" id="player-name" required>
+        <button type="submit">Ajouter le joueur</button>
+    </form>
+    <ul id="player-list"></ul>
+
+    <!-- Section de définition des rôles -->
+    <h2>Définir le nombre de rôles</h2>
+    <form id="roles-form" style="display: none;">
+        <div>
+            <label for="num-loup-garou">Loup-Garou :</label>
+            <input type="number" id="num-loup-garou" min="0" value="0">
+        </div>
+        <div>
+            <label for="num-sorciere">Sorcière :</label>
+            <input type="number" id="num-sorciere" min="0" value="0">
+        </div>
+        <div>
+            <label for="num-voyante">Voyante :</label>
+            <input type="number" id="num-voyante" min="0" value="0">
+        </div>
+        <div>
+            <label for="num-petite-fille">Petite Fille :</label>
+            <input type="number" id="num-petite-fille" min="0" value="0">
+        </div>
+        <div>
+            <label for="num-villageois">Villageois :</label>
+            <input type="number" id="num-villageois" min="0" value="0">
+        </div>
+        <button type="submit">Commencer le jeu</button>
+    </form>
+
+    <!-- Inclusion du script JavaScript -->
+    <script src="app.js"></script>
+</body>
